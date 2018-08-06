@@ -39,9 +39,9 @@ class HelpMeChooseApp extends React.Component {
 				error: undefined
 			}));
 		} else if (!sub) {
-			this.setState(state => ({ error: 'not valid you retard' }));
+			this.setState(state => ({ error: 'This value is not valid!' }));
 		} else {
-			this.setState(state => ({ error: 'already exists' }));
+			this.setState(state => ({ error: 'This option already exists!' }));
 		}
 	};
 	handleModalVis = () => {
