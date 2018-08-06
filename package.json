@@ -8,7 +8,8 @@
 		"serve": "live-server public/",
 		"build": "webpack",
 		"build:prod": "webpack -p --env production",
-		"dev-server": "webpack-dev-server"
+		"dev-server": "webpack-dev-server",
+		"test": "webpack --watch"
 	},
 	"dependencies": {
 		"babel-cli": "6.24.1",
