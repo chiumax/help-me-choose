@@ -85,6 +85,9 @@ class HelpMeChooseApp extends React.Component {
 							error={this.state.error}
 						/>
 					</div>
+					<p className="option__textt">
+						Made with {'<3'} by dumblole
+					</p>
 				</div>
 				<OptionModal
 					selectedOption={this.state.selectedOption}

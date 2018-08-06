@@ -13,7 +13,10 @@
 .huge-button:disabled {
 	opacity: 0.5;
 }
-
+.huge-button:active {
+	background-color: darken($purple, 10%);
+	transform: translateY(0.6rem);
+}
 .button {
 	background: $purple;
 	border: none;
@@ -28,6 +31,10 @@
 	border: none;
 	color: $off-white;
 	padding: 0;
+}
+.button:active {
+	background-color: darken($purple, 10%);
+	transform: translateY(0.6rem);
 }
 
 @media (min-width: $desktop-breakpoint) {
