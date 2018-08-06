@@ -19,7 +19,7 @@ module.exports = {
 			}
 		]
 	},
-	devtool: 'source-map',
+	devtool: 'cheap-module-eval-source-map',
 	devServer: {
 		contentBase: __dirname
 	}
