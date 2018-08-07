@@ -8,13 +8,13 @@ List down the options you have and let a computer decide for you.
 
 Check it out here: https://dumblole.github.io/help-me-choose/
 
-Thanks for checking out my repo.
-
 If you have any suggestions on making this project any better I'd appreciate it.
 
 Please create an issue if something wrong happens.
 
 ## Resources/Dependencies :books:
+
+Specifics can be found under the insights tab
 
 -   React.JS [https://reactjs.org/]
 -   Babel [https://babeljs.io/]
