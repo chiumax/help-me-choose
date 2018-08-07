@@ -14,15 +14,6 @@ If you have any suggestions on making this project any better I'd appreciate it.
 
 Please create an issue if something wrong happens.
 
-## Current Features :statue_of_liberty:
-
--   Grab a recent post from the [r/Megumin](https://www.reddit.com/r/Megumin/) subreddit _NOTE: Randomly selected from the 50 most recent posts_
--   Using the selenium module for python to extract quotes from [animecharactersdatabase](https://www.animecharactersdatabase.com)
--   Being able to set up a custom prefix so it doesn't potentially interfere with other bots. _NOTE: Only works with select ASCII characters. The alphabet, punctuation, and numbers._
--   Custom prefix has character limit of 20
--   If you are hosting the bot, there is a log of all messages that go through the channel/guild
--   Other small stuff
-
 ## Resources/Dependencies :books:
 
 -   React.JS [https://reactjs.org/]
