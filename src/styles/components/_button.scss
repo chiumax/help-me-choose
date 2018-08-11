@@ -1,44 +1,44 @@
 .huge-button {
-	background: $purple;
-	border: none;
-	border-bottom: 0.6rem solid darken($purple, 10%);
-	color: white;
-	font-weight: bold;
-	font-size: $l-size;
-	margin: 0 0 $m-size 0;
-	padding: 2.4rem;
-	width: 100%;
+  background: $purple;
+  border: none;
+  border-bottom: 0.6rem solid darken($purple, 10%);
+  color: white;
+  font-weight: bold;
+  font-size: $l-size;
+  margin: 0 0 $m-size 0;
+  padding: 2.4rem;
+  width: 100%;
 }
 
 .huge-button:disabled {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 .huge-button:active {
-	background-color: darken($purple, 10%);
-	transform: translateY(0.6rem);
+  background-color: darken($purple, 10%);
+  transform: translateY(0.6rem);
 }
 .button {
-	background: $purple;
-	border: none;
-	border-bottom: 0.3rem solid darken($purple, 10%);
-	color: white;
-	font-weight: 500;
-	padding: $s-size;
+  background: $purple;
+  border: none;
+  border-bottom: 0.3rem solid darken($purple, 10%);
+  color: white;
+  font-weight: 500;
+  padding: $s-size;
 }
 
 .button--link {
-	background: none;
-	border: none;
-	color: $off-white;
-	padding: 0;
+  background: none;
+  border: none;
+  color: $off-white;
+  padding: 0;
 }
-.button:active {
-	background-color: darken($purple, 10%);
-	transform: translateY(0.6rem);
+.button-org:active {
+  background-color: darken($purple, 10%);
+  transform: translateY(0.6rem);
 }
 
 @media (min-width: $desktop-breakpoint) {
-	.huge-button {
-		margin: 0 0 $xl-size 0;
-	}
+  .huge-button {
+    margin: 0 0 $xl-size 0;
+  }
 }
